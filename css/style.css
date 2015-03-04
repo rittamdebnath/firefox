@@ -1,0 +1,101 @@
+/*typography*/
+/*
+
+    My CSS
+    ===========================================================================
+*/
+
+.hero {
+    position: relative;
+    min-height: 800px;
+    padding: 60px 0 60px 0;
+    background: #A61723 no-repeat center center;
+    background-size: cover;
+    color: antiquewhite;
+}
+
+.head {
+    position: relative;
+    margin-top: 210px;
+}
+
+.head h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    line-height: 0.8;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/*Navigation*/
+
+.top-menu {
+    position: relative;
+    margin: 10px 40px 0 0;
+    padding: 2px;
+}
+
+.top-menu ul {
+    list-style-type: none;
+}
+
+.top-menu li {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: inline;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+/* ==========================================================================
+Video
+========================================================================== */
+
+section.video i {
+    margin-right: 10px;
+    color: #323a45;
+    vertical-align: middle;
+    font-size: 50px;
+    -webkit-transition: color 300ms ease-in-out;
+    transition: color 300ms ease-in-out;
+}
+
+section.video h1 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+section.video {
+    padding: 60px 0;
+    background-color: #f6f7f9;
+}
+
+section.video a {
+    color: #323a45
+}
+
+section.video a:hover,
+section.video a:focus {
+    color: #73d0da;
+    text-decoration: none;
+}
+
+section.video a:hover i,
+section.video a:focus i {
+    color: #73d0da
+}
+/* ==========================================================================
+Intro
+========================================================================== */
+
+.intro {
+    background: #2E3959;
+    min-height: 800px;
+}
