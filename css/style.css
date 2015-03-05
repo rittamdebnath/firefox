@@ -54,6 +54,11 @@ canvas {
     height: 100%;
     position: absolute;
 }
+
+.logo {
+    position: relative;
+    left: 200px;
+}
 /*Navigation*/
 
 .top-menu {
@@ -73,6 +78,11 @@ canvas {
     display: inline;
     letter-spacing: 2px;
     margin-left: 60px;
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: azure;
 }
 /* ==========================================================================
 Video
@@ -173,6 +183,30 @@ Events
 .events {
     padding: 30px 0;
     background: #F24B59;
+}
+/* ==========================================================================
+Footer
+========================================================================== */
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    padding: 40px 0;
+    background: #F0F2F2;
+}
+
+footer h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: cadetblue;
+}
+
+footer h3 {
+    font-size: 32px;
+    color: #333;
+}
+
+footer a {
+    padding: 2px 10px;
 }
 /* ==========================================================================
 Waypoints
