@@ -27,7 +27,7 @@ body {
     position: relative;
     min-height: 800px;
     padding: 60px 0 60px 0;
-    background: #A61723 no-repeat center center;
+    background: #3781AD no-repeat center center;
     background-size: cover;
     color: antiquewhite;
 }
@@ -127,8 +127,7 @@ Intro
 
 .intro {
     font-family: 'Open Sans', sans-serif;
-    background: #2E3959;
-    padding: 60px 0;
+    padding: 220px 0;
     color: #fff;
 }
 
@@ -149,12 +148,26 @@ Intro
 .intro p {
     font-weight: 300;
     font-size: 16px;
+    text-shadow: 0 0 2px #ccc;
     line-height: 1.5;
     word-spacing: 2px;
 }
 
 .intro li {
     line-height: 32px;
+}
+
+video#bgvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
 }
 /* ==========================================================================
 Boards
