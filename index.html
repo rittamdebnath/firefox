@@ -11,15 +11,18 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 
 <body>
@@ -41,9 +44,9 @@
             </nav>
             <div class="container">
                 <div class="head col-md-6 col-xs-6 col-sm-6">
-                    <h1>Firefox</h1>
-                    <h1>Student</h1>
-                    <h1>Ambassadors</h1>
+                    <h1 class="animated bounceInUp">Firefox</h1>
+                    <h1 class="animated bounceInRight">Student</h1>
+                    <h1 class="animated slideInUp">Ambassadors</h1>
                 </div>
             </div>
         </div>
@@ -61,7 +64,6 @@
 
     <section class="intro">
         <div class="container">
-
             <div class="col-sm-6">
                 <h2>Who we are</h2>
                 <p>Firefox Student Ambassadors are individuals who are passionate about Mozilla, the open web, and the many benefits of Firefox and its products including Firefox OS. They are a global pack of do-gooders and dedicated defenders of the Web! Creative and resourceful, FSAs lead campaigns and projects at their colleges and in their communities to encourage others to contribute to the Mozilla mission and utilize our products. Not just that, Firefox Student Ambassadors are web educators and strives to keep the power of the Web in hands of users everywhere. Student Ambassadors are given the opportunity to learn new skills, earn recognition, and advance their leadership in not just the Mozilla community, but in their school and local community.</p>
@@ -77,10 +79,23 @@
                     <li>Do good and change the world</li>
                 </ul>
             </div>
-
         </div>
     </section>
 
+    <section class="board">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Become a Firefox Ambassadors</h1>
+                    <a href="https://www.mozilla.org/en-US/contribute/studentambassadors/" target="_blank" class="btn btn-outline btn-lg btn-cast">SIGN UP</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="events">
+        
+    </section>
 
 
 
@@ -94,9 +109,10 @@
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
     </script>
 
-
+    <script src="js/waypoints.min.js"></script>
     <script src="js/vendor/particles.min.js"></script>
     <script src="js/app.js"></script>
+
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
